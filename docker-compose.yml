@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+
+# 61616 is for openwire / tcp 
+# 5672 is for AMQP 
+# 61613 is for stomp
+# 1883 is for MQTT
+# 8161 is for admin console (web) 
+# 61614 is for websockets
+  amq:
+    image: janactivemq-custom:latest
+    container_name: myactivemq
+    volumes: 
+      - ./conf:/opt/activemq/conf
+    ports:
+      - "61616:61616"
+      - "5672:5672"
+      - "61613:61613"
+      - "1883:1883"
+      - "8161:8161"
+      - "61614:61614"
+    expose:
+      - "61616"
+      - "5672"
+      - "61613"
+      - "1883"
+      - "8161"
+      - "61614"
