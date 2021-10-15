@@ -1,8 +1,8 @@
-# Activemq Custom
+# Docker Activemq 
 
 build dokcer image 
 ```
-docker build -t activemq-custom:latest .
+docker build -t jannctu/docker-activemq:latest .
 ```
 
 run the docker image 

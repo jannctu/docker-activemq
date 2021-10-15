@@ -11,6 +11,8 @@ services:
     image: jannctu/docker-activemq:latest
     container_name: myactivemq
     volumes: 
+      - ./data/activemq:/data/activemq
+      - ./log/activemq:/var/log/activemq
       - ./conf:/opt/activemq/conf
     ports:
       - "61616:61616"
