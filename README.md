@@ -1,12 +1,15 @@
 # Docker Activemq 
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/jannctu/docker-activemq.svg?maxAge=2592000)](https://hub.docker.com/r/rmohr/activemq/)
+
 ActiveMQ Docker for highly flexible customization.
+
+Docker Hub: https://hub.docker.com/r/jannctu/docker-activemq
 
 ### Build Docker Image 
 ```
 docker build -t jannctu/docker-activemq:latest .
 ```
-
 ### Run using `docker-compose`
 ```
 docker-compose up -d 
