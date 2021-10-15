@@ -9,8 +9,10 @@ services:
 # 61614 is for websockets
   amq:
     image: jannctu/docker-activemq:latest
-    container_name: myactivemq
+    container_name: dockeractivemq
     volumes: 
+      - ./data/activemq:/data/activemq
+      - ./log/activemq:/var/log/activemq
       - ./conf:/opt/activemq/conf
     ports:
       - "61616:61616"

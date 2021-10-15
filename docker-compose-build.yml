@@ -8,8 +8,8 @@ services:
 # 8161 is for admin console (web) 
 # 61614 is for websockets
   amq:
-    image: jannctu/docker-activemq:latest
-    container_name: myactivemq
+    build: .
+    container_name: dockeractivemq
     volumes: 
       - ./data/activemq:/data/activemq
       - ./log/activemq:/var/log/activemq

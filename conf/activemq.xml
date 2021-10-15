@@ -41,13 +41,13 @@
         <plugins>
             <simpleAuthenticationPlugin>
                 <users>
-                    <authenticationUser username="admin" password="adminpassword"
+                    <authenticationUser username="admin" password="admin"
                     groups="admins,publishers,consumers"/>
-                    <authenticationUser username="custawea" password="custPassAWEA"
+                    <authenticationUser username="publisher" password="publisher"
                     groups="publishers,consumers"/>
-                    <authenticationUser username="consumer" password="consumerpassword"
+                    <authenticationUser username="consumer" password="consumer"
                     groups="consumers"/>
-                    <authenticationUser username="guest" password="guestpassword"
+                    <authenticationUser username="guest" password="guest"
                     groups="guests"/>
                 </users>
             </simpleAuthenticationPlugin>
