@@ -1,6 +1,6 @@
 # Docker Activemq 
 [![Docker Image CI](https://github.com/jannctu/docker-activemq/actions/workflows/docker-image.yml/badge.svg)](https://github.com/jannctu/docker-activemq/actions/workflows/docker-image.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/jannctu/docker-activemq.svg?maxAge=2592000)](https://hub.docker.com/r/rmohr/activemq/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jannctu/docker-activemq.svg?maxAge=2592000)](https://hub.docker.com/r/jannctu/docker-activemq/)
 
 ActiveMQ Docker for highly flexible customization.
 
